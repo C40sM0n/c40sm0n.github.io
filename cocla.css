@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	overflow: hidden;
+}
+
+body {
+	background: black;
+	color: purple;
+}
+
+p img {
+	width: 100%;
+}
+
+@media screen and (min-width: 790px) {
+	p img {
+		width: auto;
+	}
+}
